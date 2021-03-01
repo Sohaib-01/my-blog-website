@@ -36,22 +36,13 @@
       {{ content | safe }}
     </main>
 
-    <footer>
-      <p class="text-center">© 2021 Sohaib's Blog</p>
+    <footer class="footer my-3">
+      <div class="container">
+        <p class="text-center">&#169 2021 Sohaib's Blog</p>
+      </div>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
