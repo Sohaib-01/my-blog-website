@@ -1,7 +1,7 @@
 ---
 title: This is my sixth post.
 description: This is a post on My Blog about agile frameworks.
-date: 2021-02-25
+date: 2021-03-01
 tags:
   - another-tag
 layout: layouts/post.njk
